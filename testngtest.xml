@@ -1,0 +1,110 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Acuity Suite" annotations="JDK" parallel="none">
+ <test name="Acuity1">
+
+      </test> 
+    <test name="Acuity1">
+    <classes>
+     <class name="Create_Service_Request_BLS_Oneway.BLS_Oneway"/>
+     </classes>
+     </test>
+     
+       <test name="Acuity2">
+    <classes>
+     <class name="Create_Service_Request_CCT_Oneway.CCT_Oneway"/>
+     </classes>
+     </test>
+     
+      <test name="Acuity3">
+    <classes>
+     <class name="Create_Service_Request_WCT_Oneway.WCT_Oneway"/>
+     </classes>
+      </test>
+     
+      <test name="Acuity4">
+    <classes>
+     <class name="Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity5">
+    <classes>
+     <class name="Create_Service_Request_BLS_Roundtrip.BLS_Roundtrip"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity6">
+    <classes>
+     <class name="Create_Service_Request_CCT_Roundtrip.CCT_Roundtrip"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity7">
+    <classes>
+     <class name="Create_Service_Request_WCT_Roundtrip.WCT_Roundtrip"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity8">
+    <classes>
+     <class name="Create_Service_Request_ALS_Multi.ALS_Multi"/>
+     </classes>
+      </test>
+      
+      <test name="Acuity9">
+    <classes>
+     <class name="Create_Service_Request_BLS_Multi.BLS_Multi"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity10">
+    <classes>
+     <class name="Create_Service_Request_CCT_Multi.CCT_Multi"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity11">
+    <classes>
+     <class name="Create_Service_Request_WCT_Multi.WCT_Multi"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity12">
+    <classes>
+     <class name="Add_NewASP_Selectionlogic.Selection_logic"/>
+     </classes>
+     </test>
+     
+       <test name="Acuity13">
+    <classes>
+     <class name="ASP_Add_New_ASP.ASP_AddASP"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity14">
+    <classes>
+     <class name="HI_profile.Add_Edit_Activate_Deactivate_Building"/>
+     </classes>
+      </test>
+      
+      <test name="Acuity15">
+    <classes>
+     <class name="Login.HI_Login"/>
+     </classes>
+     </test>
+      
+      <test name="Acuity16">
+    <classes>
+     <class name="Registration.HI_Reg"/>
+     </classes>
+     
+     </test>
+     <test name="Acuity17">
+     <classes>
+      <class name="Create_Service_Request_ALS_Oneway.ALS_Oneway"/>
+       </classes>
+     
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

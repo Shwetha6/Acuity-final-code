@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Acuity Suite" annotations="JDK" parallel="none">
+ <test name="Acuity">
+ 
+ </test> 
+    <test name="Acuity1">
+    <classes>
+     <class name="Create_Service_Request_ALS_Oneway.ALS_Oneway"/>
+     </classes>
+     </test>
+     
+       <test name="Acuity2">
+    <classes>
+     <class name="ASP_Requests.ASP_requests"/>
+     </classes>
+     
+    
+      </test> <!-- Test -->
+</suite> <!-- Suite -->
