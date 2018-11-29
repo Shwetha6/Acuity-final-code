@@ -1,109 +1,130 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
 
 <suite thread-count="1" verbose="1" name="Acuity Suite" annotations="JDK" parallel="none">
- <test name="Acuity1">
 
-      </test> 
-    <test name="Acuity1">
+   <test name="Create_Service_Request_BLS_Oneway">
     <classes>
      <class name="Create_Service_Request_BLS_Oneway.BLS_Oneway"/>
      </classes>
      </test>
      
-       <test name="Acuity2">
+       <test name="Create_Service_Request_CCT_Oneway">
     <classes>
      <class name="Create_Service_Request_CCT_Oneway.CCT_Oneway"/>
      </classes>
      </test>
      
-      <test name="Acuity3">
+      <test name="Create_Service_Request_WCT_Oneway">
     <classes>
      <class name="Create_Service_Request_WCT_Oneway.WCT_Oneway"/>
      </classes>
       </test>
      
-      <test name="Acuity4">
+      <test name="Create_Service_Request_ALS_Roundtrip">
     <classes>
      <class name="Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip"/>
      </classes>
      </test>
       
-      <test name="Acuity5">
+      <test name="Create_Service_Request_BLS_Roundtrip">
     <classes>
      <class name="Create_Service_Request_BLS_Roundtrip.BLS_Roundtrip"/>
      </classes>
      </test>
       
-      <test name="Acuity6">
+      <test name="Create_Service_Request_CCT_Roundtrip">
     <classes>
      <class name="Create_Service_Request_CCT_Roundtrip.CCT_Roundtrip"/>
      </classes>
      </test>
       
-      <test name="Acuity7">
+      <test name="Create_Service_Request_WCT_Roundtrip">
     <classes>
      <class name="Create_Service_Request_WCT_Roundtrip.WCT_Roundtrip"/>
      </classes>
      </test>
       
-      <test name="Acuity8">
+      <test name="Create_Service_Request_ALS_Multi">
     <classes>
      <class name="Create_Service_Request_ALS_Multi.ALS_Multi"/>
      </classes>
       </test>
       
-      <test name="Acuity9">
+      <test name="Create_Service_Request_BLS_Multi">
     <classes>
      <class name="Create_Service_Request_BLS_Multi.BLS_Multi"/>
      </classes>
      </test>
       
-      <test name="Acuity10">
+      <test name="Create_Service_Request_CCT_Multi">
     <classes>
      <class name="Create_Service_Request_CCT_Multi.CCT_Multi"/>
      </classes>
      </test>
       
-      <test name="Acuity11">
+      <test name="Create_Service_Request_WCT_Multi">
     <classes>
      <class name="Create_Service_Request_WCT_Multi.WCT_Multi"/>
      </classes>
      </test>
       
-      <test name="Acuity12">
+      <test name="Add_NewASP_Selectionlogic">
     <classes>
      <class name="Add_NewASP_Selectionlogic.Selection_logic"/>
      </classes>
      </test>
      
-       <test name="Acuity13">
+       <test name="ASP_Add_New_ASP">
     <classes>
      <class name="ASP_Add_New_ASP.ASP_AddASP"/>
      </classes>
      </test>
       
-      <test name="Acuity14">
+      <test name="HI_profile">
     <classes>
      <class name="HI_profile.Add_Edit_Activate_Deactivate_Building"/>
      </classes>
       </test>
       
-      <test name="Acuity15">
+      <test name="HI_Login">
     <classes>
      <class name="Login.HI_Login"/>
      </classes>
      </test>
       
-      <test name="Acuity16">
+      <test name="HI_Registration">
     <classes>
-     <class name="Registration.HI_Reg"/>
+     <class name="HI_Registration.HI_Reg"/>
      </classes>
      
-     </test>
-     <test name="Acuity17">
+       </test>
+     <test name="ASP_Login">
+     <classes>
+      <class name="ASP_Login.ASP_login"/>
+       </classes>	
+       
+         </test>
+     <test name="ASP_Amb_Crew_member_registration">
+     <classes>
+      <class name="ASP_Amb_Crew_member_registration.ASP_Ambandcrew_reg"/>
+       </classes>
+       
+        </test>
+     <test name="Create_Service_Request_ALS_Oneway">
      <classes>
       <class name="Create_Service_Request_ALS_Oneway.ALS_Oneway"/>
        </classes>
+       
+        </test>
+     <test name="ASP_Requests">
+     <classes>
+      <class name="ASP_Requests.ASP_requests"/>
+       </classes>
+       
+      
+       
+     
+       
      
      
   </test> <!-- Test -->

@@ -1,14 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Acuity Suite]">
-  <test thread-count="1" name="Acuity2(failed)">
+  <test thread-count="1" name="Create_Service_Request_ALS_Roundtrip(failed)">
+    <classes>
+      <class name="Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip">
+        <methods>
+          <include name="HiFillPatientInformationALSRoundcustompickdefaultdest"/>
+          <include name="HiFillPatientInformationALSRoundTripDefaultpickandDest"/>
+          <include name="init4"/>
+        </methods>
+      </class> <!-- Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip -->
+    </classes>
+  </test> <!-- Create_Service_Request_ALS_Roundtrip(failed) -->
+  <test thread-count="1" name="Create_Service_Request_WCT_Roundtrip(failed)">
+    <classes>
+      <class name="Create_Service_Request_WCT_Roundtrip.WCT_Roundtrip">
+        <methods>
+          <include name="init4"/>
+          <include name="HiFillPatientInformationWCTRoundTrip"/>
+        </methods>
+      </class> <!-- Create_Service_Request_WCT_Roundtrip.WCT_Roundtrip -->
+    </classes>
+  </test> <!-- Create_Service_Request_WCT_Roundtrip(failed) -->
+  <test thread-count="1" name="Create_Service_Request_ALS_Multi(failed)">
+    <classes>
+      <class name="Create_Service_Request_ALS_Multi.ALS_Multi">
+        <methods>
+          <include name="HiFillPatientInformationALSCustomMulti"/>
+          <include name="init4"/>
+          <include name="HiFillPatientInformationALSCustomAndDefaultMulti"/>
+          <include name="HiFillPatientInformationALSDefaultAndCustomMulti"/>
+          <include name="HiFillPatientInformationALSDefaultMulti"/>
+        </methods>
+      </class> <!-- Create_Service_Request_ALS_Multi.ALS_Multi -->
+    </classes>
+  </test> <!-- Create_Service_Request_ALS_Multi(failed) -->
+  <test thread-count="1" name="Add_NewASP_Selectionlogic(failed)">
+    <classes>
+      <class name="Add_NewASP_Selectionlogic.Selection_logic">
+        <methods>
+          <include name="ExclusiveAmbSection"/>
+          <include name="OrderNumberEvenRotationSection"/>
+          <include name="SetPercentageListAsp"/>
+          <include name="CustomRotationSection"/>
+          <include name="AvailableAppropriateASPSection"/>
+          <include name="init4"/>
+        </methods>
+      </class> <!-- Add_NewASP_Selectionlogic.Selection_logic -->
+    </classes>
+  </test> <!-- Add_NewASP_Selectionlogic(failed) -->
+  <test thread-count="1" name="ASP_Add_New_ASP(failed)">
+    <classes>
+      <class name="ASP_Add_New_ASP.ASP_AddASP">
+        <methods>
+          <include name="RemoveAspFromAspdetailPage"/>
+          <include name="Pagination"/>
+          <include name="VerifyAspPage"/>
+          <include name="AddNewAsp"/>
+          <include name="init4"/>
+          <include name="AddExistingAsp"/>
+          <include name="RemoveAsp"/>
+        </methods>
+      </class> <!-- ASP_Add_New_ASP.ASP_AddASP -->
+    </classes>
+  </test> <!-- ASP_Add_New_ASP(failed) -->
+  <test thread-count="1" name="HI_Login(failed)">
+    <classes>
+      <class name="Login.HI_Login">
+        <methods>
+          <include name="acuityvalid"/>
+          <include name="init4"/>
+        </methods>
+      </class> <!-- Login.HI_Login -->
+    </classes>
+  </test> <!-- HI_Login(failed) -->
+  <test thread-count="1" name="HI_Registration(failed)">
+    <classes>
+      <class name="HI_Registration.HI_Reg">
+        <methods>
+          <include name="init4"/>
+          <include name="hireg"/>
+        </methods>
+      </class> <!-- HI_Registration.HI_Reg -->
+    </classes>
+  </test> <!-- HI_Registration(failed) -->
+  <test thread-count="1" name="ASP_Login(failed)">
+    <classes>
+      <class name="ASP_Login.ASP_login">
+        <methods>
+          <include name="aspvalid"/>
+          <include name="init4"/>
+        </methods>
+      </class> <!-- ASP_Login.ASP_login -->
+    </classes>
+  </test> <!-- ASP_Login(failed) -->
+  <test thread-count="1" name="ASP_Amb_Crew_member_registration(failed)">
+    <classes>
+      <class name="ASP_Amb_Crew_member_registration.ASP_Ambandcrew_reg">
+        <methods>
+          <include name="crewmemberassignambulance"/>
+          <include name="init4"/>
+          <include name="ambulanceregistration"/>
+        </methods>
+      </class> <!-- ASP_Amb_Crew_member_registration.ASP_Ambandcrew_reg -->
+    </classes>
+  </test> <!-- ASP_Amb_Crew_member_registration(failed) -->
+  <test thread-count="1" name="ASP_Requests(failed)">
     <classes>
       <class name="ASP_Requests.ASP_requests">
         <methods>
           <include name="active_requests"/>
+          <include name="pending_requests"/>
           <include name="init4"/>
         </methods>
       </class> <!-- ASP_Requests.ASP_requests -->
     </classes>
-  </test> <!-- Acuity2(failed) -->
+  </test> <!-- ASP_Requests(failed) -->
 </suite> <!-- Failed suite [Acuity Suite] -->

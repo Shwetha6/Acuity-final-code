@@ -158,7 +158,7 @@ public class Add_Edit_Activate_Deactivate_Building
 		}
 	
 	
-	@Test(priority=4)
+	/*@Test(priority=4)
 	public void HiEditBuildingLocation() throws Exception
 	{
 		
@@ -225,10 +225,10 @@ public class Add_Edit_Activate_Deactivate_Building
 			s15.assertEquals(ele27, "Building updated successfully.");
 			Reporter.log("'Building updated successfully' message is displayed. Hence edit is done. Check manually once", true);
 		}
-		
+		*/
 	
 	
-	@Test(priority=5)
+	@Test(priority=4)
 	public void HiEditProfileDetails() throws InterruptedException
 	{
 		    Thread.sleep(3000);
@@ -259,9 +259,10 @@ public class Add_Edit_Activate_Deactivate_Building
 			Reporter.log("Profile has been updated successfully and sent for admin approval.", true);
 			Thread.sleep(3000);
 		}
+}
 	
 	
-	@Test(priority=6)
+	/*@Test(priority=5)
 	public void HiChangePassword() throws Exception
 	{
 	
@@ -290,7 +291,7 @@ public class Add_Edit_Activate_Deactivate_Building
 			
 		}
 	 
-	}
+	}*/
 
 	
 	

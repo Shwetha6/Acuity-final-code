@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Create_Service_Request_ALS_Oneway.ALS_Oneway">
+      <class name="Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip">
         <methods>
-          <include name="HiFillPatientInformationALSCustomAndDefault"/>
+          <include name="HiFillPatientInformationALSRoundTrip"/>
+          <include name="HiFillPatientInformationALSRoundcustompickdefaultdest"/>
+          <include name="HiFillPatientInformationALSRoundTripDefaultpickandDest"/>
+          <include name="HiFillPatientInformationALSRoundTripdefaultpickcustomdest"/>
           <include name="init4"/>
-          <include name="HiFillPatientInformationALSDefaultAndCustom"/>
-          <include name="HiCreateServiceRequest"/>
         </methods>
-      </class> <!-- Create_Service_Request_ALS_Oneway.ALS_Oneway -->
+      </class> <!-- Create_Service_Request_ALS_Roundtrip.ALS_Roundtrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

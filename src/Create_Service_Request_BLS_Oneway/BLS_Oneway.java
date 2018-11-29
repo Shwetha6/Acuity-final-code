@@ -91,9 +91,10 @@ public class BLS_Oneway
 	driver.findElement(By.id("puFacultyName0")).sendKeys(pickup);
 	driver.findElement(By.id("streetAddressPU0")).sendKeys(streetaddress);
 	driver.findElement(By.id("zipcodePU0")).sendKeys(zip);
+	Thread.sleep(2000);
 	Robot bls1=new Robot();
 	bls1.keyPress(KeyEvent.VK_TAB);
-	Thread.sleep(3000);
+	Thread.sleep(4000);
 	driver.findElement(By.xpath("//div[@id='destInfoTypeDivId0']//label[contains(text(), 'Custom')]")).click();
 	driver.findElement(By.xpath("//div[@id='customHiDivId0']//label[@class='aq-checkbox-label marL5']")).click();
 	driver.findElement(By.id("destFacultyName0")).sendKeys(destination);
@@ -252,7 +253,7 @@ public class BLS_Oneway
 	driver.findElement(By.id("zipcodePU0")).sendKeys(zip);
 	Robot bls2=new Robot();
 	bls2.keyPress(KeyEvent.VK_TAB);
-	Thread.sleep(3000);
+	Thread.sleep(4000);
 
 	driver.findElement(By.id("searchId0")).sendKeys(desthi);
 	Thread.sleep(4000);
@@ -340,6 +341,7 @@ public class BLS_Oneway
 	driver.findElement(By.xpath("(//span[@class='filter-option pull-left'][contains(text(), 'Choose Unit')])[1]")).click();
 	driver.findElement(By.xpath("//span[@class='text'][contains(text(), 'Unit1')]")).click();
 	driver.findElement(By.id("puRoomNumber0")).sendKeys(roomno);
+	Thread.sleep(3000);
 	
 	driver.findElement(By.xpath("//div[@id='destInfoTypeDivId0']//label[contains(text(), 'Custom')]")).click();
 	driver.findElement(By.xpath("//div[@id='customHiDivId0']//label[@class='aq-checkbox-label marL5']")).click();
@@ -348,7 +350,7 @@ public class BLS_Oneway
 	driver.findElement(By.id("zipcode0")).sendKeys(zipdest);
 	Robot bls3=new Robot();
 	bls3.keyPress(KeyEvent.VK_TAB);
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 	driver.findElement(By.xpath("//label[@class='aq-checkbox-label marB20']//strong")).click();
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//button[@class='btn btn-primary'][contains(text(), 'OK')]")).click();
